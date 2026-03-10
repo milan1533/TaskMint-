@@ -96,10 +96,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 🤝 Contact
+##  Contact
 
 **TaskMint Team** - [Your Name/GitHub](https://github.com/yourusername)
 
 Project Link: [https://github.com/yourusername/taskmint](https://github.com/yourusername/taskmint)
 
-*Built with ❤️ using Flutter*
+*Built with  using Flutter*
