@@ -116,7 +116,7 @@ class _ExpenseListScreenState extends State<ExpenseListScreen> {
             ),
             const SizedBox(height: 8),
             Text(
-              '\$${total.toStringAsFixed(2)}',
+              '₹${total.toStringAsFixed(2)}',
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 36,
@@ -201,7 +201,7 @@ class _ExpenseListScreenState extends State<ExpenseListScreen> {
                   ),
                 ),
                 Text(
-                  '-\$${expense.amount.toStringAsFixed(2)}',
+                  '-₹${expense.amount.toStringAsFixed(2)}',
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,

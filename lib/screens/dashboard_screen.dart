@@ -110,7 +110,7 @@ class DashboardScreen extends StatelessWidget {
         Expanded(
           child: _buildStatCard(
             'Expenses',
-            '\$${expenses.toStringAsFixed(0)}',
+            '₹${expenses.toStringAsFixed(0)}',
             'Total',
             Icons.account_balance_wallet_rounded,
             isDark ? AppColors.darkSecondary : AppColors.lightSecondary,
@@ -281,7 +281,7 @@ class DashboardScreen extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      '-\$${expense.amount.toStringAsFixed(2)}',
+                      '-₹${expense.amount.toStringAsFixed(2)}',
                       style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         color: AppColors.error,
